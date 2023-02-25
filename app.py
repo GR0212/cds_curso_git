@@ -1,17 +1,10 @@
-import pandas as pd
-import numpy as np
-import streamlit as st
 
-def load_data():
-    return pd.read_csv ('data/processd/bikes_completed.csv')
+import streamlit as st
 
 def main():
     df = load_data()
 
-    st.dataframe (df)
+    st.dataframe(df)
 
-if__name__== '__main__' :
+if __name__=='__main__':
     main()
-
-
-main()
