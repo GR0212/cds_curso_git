@@ -10,5 +10,8 @@ def main():
 
     st.dataframe (df)
 
-if__name__=="__main__":
+if__name__== '__main__' :
+    main()
+
+
 main()
